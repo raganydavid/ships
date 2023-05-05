@@ -1,10 +1,10 @@
 {
   "name": "sablon",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "hai-server --watch database.json --port 8000",
     "start": "npx lite-server"
   },
   "keywords": [],
@@ -14,6 +14,16 @@
     "bootstrap": "^5.2.3"
   },
   "devDependencies": {
+    "hai-server": "^0.0.4",
     "lite-server": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raganydavid/ships.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raganydavid/ships/issues"
+  },
+  "homepage": "https://github.com/raganydavid/ships#readme",
+  "description": ""
 }
